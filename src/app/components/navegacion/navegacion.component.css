@@ -1,0 +1,24 @@
+.fa-2x {
+    color: white;
+}
+.media {
+    display: flex;
+    gap: 1.5rem;
+}
+.media .hover:hover {
+    color: #fc094e;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #fc094e;
+}
+.media {
+    margin-top: 2rem;
+}
+.media-col {
+   
+    gap: 2.5rem;
+}
