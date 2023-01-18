@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HttpClientModule } from '@angular/common/http';
 /* CIRCULAR PROGRESS */
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ExperienceComponent } from './components/experience/experience.component';
@@ -35,6 +36,7 @@ import { AboutComponent } from './components/about/about.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
         // Specify ng-circle-progress as an import
         NgCircleProgressModule.forRoot({

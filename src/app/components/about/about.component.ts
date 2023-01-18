@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { SobreMiService } from 'src/app/service/sobre-mi.service';
+import { sobreMi } from 'src/app/model/sobremi.model';
+
 
 @Component({
   selector: 'app-about',
@@ -6,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
+  sobreMi: sobreMi = new sobreMi("","","");
+  constructor(public sobreMiService: SobreMiService) { }
 
   ngOnInit(): void {
+    this.sobreMiService.getSobreMi().subscribe(data =>{ this.sobreMi = data})
   }
 
 }
