@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.9)), url(../../../assets/pexels-markus-spiske-225767.jpg) no-repeat center center/cover;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.9)), url(../../../assets/pexels-markus-spiske-225767.jpg) no-repeat center center/cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .login-box {
+    width: 320px;
+    height: 420px;
+    background: rgb(32, 34, 37);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+  }
+  
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(252, 9, 78,.6);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  .login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(252, 9, 78);
+  }
+  
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  

@@ -13,10 +13,13 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 /* CIRCULAR PROGRESS */
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { AboutComponent } from './components/about/about.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -33,10 +36,13 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     SkillsComponent,
     ExperienceComponent,
+    LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     AppRoutingModule,
         // Specify ng-circle-progress as an import
         NgCircleProgressModule.forRoot({

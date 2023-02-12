@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form Design One | Fazt</title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <h1>Login Here</h1>
+      <form (ngSubmit)="userLogin()">
+        <!-- USERNAME INPUT -->
+        <label for="inputEmail">Username</label>
+        <input type="email" [(ngModel)]="user.userId" id="userId" name="userId" placeholder="Email">
+        <!-- PASSWORD INPUT -->
+        <label for="inputPassword">Password</label>
+        <input type="password" [(ngModel)]="user.password" id="password" name="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Lost your Password?</a><br>
+        <a href="#">Don't have An account?</a>
+      </form>
+    </div>
+  </body>
+</html>
