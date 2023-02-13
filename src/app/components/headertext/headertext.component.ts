@@ -8,7 +8,7 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./headertext.component.css']
 })
 export class HeadertextComponent implements OnInit {
-  persona: persona = new persona("","","","");
+  persona: persona = new persona(1,"","","","");
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void {

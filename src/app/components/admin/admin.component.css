@@ -1,0 +1,10 @@
+.formulario {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+}
+.styled{
+    width: 15rem;
+    height: 2rem;
+}

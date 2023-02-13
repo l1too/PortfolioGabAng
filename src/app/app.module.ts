@@ -20,6 +20,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { AboutComponent } from './components/about/about.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { HomeComponent } from './components/home/home.component';
     ExperienceComponent,
     LoginComponent,
     HomeComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+<form class="formulario" action="">
+    <label class="styled"  for="">nombre</label>
+    <input class="styled" type="text" placeholder={{persona.nombre}} (change)="updateNombre($event)" />
+    
+    <label class="styled" for="">apellido</label>
+    <input class="styled" type="text" placeholder={{persona.apellido}} (change)="updateApellido($event)" />
+    
+    
+    <label class="styled" for="">oficio</label>
+    <input class="styled" type="text" placeholder={{persona.oficio}} (change)="updateOficio($event)" />
+
+    <label for="">imagen</label>
+    <img src="{{persona.imgFondo}}" height="100px" alt="imagen">
+    <img class="base" height="100px" alt="imagen">
+    <input type="file" (change)="updateImgFondo($event)"/>
+
+    <label for="">guardar</label>
+    <input type="submit" (click)="save()"/>
+</form>

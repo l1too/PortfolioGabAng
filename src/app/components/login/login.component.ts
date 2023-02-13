@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   userLogin(){
     console.log(this.user);
     this.loginuserservice.loginUSer(this.user).subscribe(data=>{
-      window.location.href=""
+      window.location.href="admin"
     }, error=> alert("Por favor ingrese un usuario y contraseña correcto"));
   }
 
